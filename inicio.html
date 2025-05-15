@@ -1,0 +1,462 @@
+<!doctype html>
+<html
+  lang="es"
+  data-astro-cid-37fxchfa=""
+  style="
+    --primaryColor: #3a7bd5;
+    --primaryGradient: linear-gradient(to right, #3a7bd5, #00d2ff);
+    --secondaryColor: #2c3e50;
+    --accentColor: #ff6b6b;
+    --lightBg: #f9f9f9;
+    --darkText: #333;
+    --lightText: #fff;
+  ">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio - True Parenting</title>
+    <link rel="stylesheet" href="Inicio%20-%20True%20Parenting_files/styles.css" />
+    <link href="Inicio%20-%20True%20Parenting_files/css2.css" rel="stylesheet" />
+    <style>
+      :root {
+        --primary-color: var(--primaryColor);
+        --primary-gradient: var(--primaryGradient);
+        --secondary-color: var(--secondaryColor);
+        --accent-color: var(--accentColor);
+        --light-bg: var(--lightBg);
+        --dark-text: var(--darkText);
+        --light-text: var(--lightText);
+        --box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      }
+      @keyframes float {
+        0%,
+        to {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-5px);
+        }
+      }
+    </style>
+  </head>
+  <body
+    data-astro-cid-37fxchfa=""
+    style="
+      --primaryColor: #3a7bd5;
+      --primaryGradient: linear-gradient(to right, #3a7bd5, #00d2ff);
+      --secondaryColor: #2c3e50;
+      --accentColor: #ff6b6b;
+      --lightBg: #f9f9f9;
+      --darkText: #333;
+      --lightText: #fff;
+    ">
+    <div
+      id="wrap"
+      data-astro-cid-37fxchfa=""
+      style="
+        --primaryColor: #3a7bd5;
+        --primaryGradient: linear-gradient(to right, #3a7bd5, #00d2ff);
+        --secondaryColor: #2c3e50;
+        --accentColor: #ff6b6b;
+        --lightBg: #f9f9f9;
+        --darkText: #333;
+        --lightText: #fff;
+      ">
+      <header id="top">
+        <div id="header">
+          <div id="header-side">
+            <div id="languages">
+              <button class="menu-icon" id="btn-spa">SPA</button> <button class="menu-icon" id="btn-swe">SWE</button>
+            </div>
+          </div>
+          <div id="header-main">
+            <div id="title">
+              <a href="inicio.html"><h1>TRUE PARENTING</h1></a>
+            </div>
+            <nav id="menu">
+              <ul>
+                <li class="menu-item"><a href="inicio.html">Inicio</a></li>
+                <li class="menu-item"><a href="quienesSomos.html">Quiénes somos</a></li>
+                <li class="menu-item"><a href="articulos.html">Artículos</a></li>
+                <li class="menu-item"><a href="retosDeLectura.html">Retos de Lectura</a></li>
+                <li class="menu-item"><a href="contacto.html">Contacto</a></li>
+                <li class="menu-item"><a href="nuestroPatreon.html">Nuestro Patreon</a></li>
+              </ul>
+            </nav>
+          </div>
+          <button id="menu-opener" class="mobile-menu-opener">☰</button>
+          <button id="subscribe-btn" class="subscribe-button">Suscribirse</button>
+        </div>
+      </header>
+      <script type="module">
+        function a(e) {
+          localStorage.setItem("language", e), c(e);
+        }
+        function c(e) {
+          const t = window.location.pathname;
+          let n;
+          e === "sv" ? (n = t.replace(".html", "-sv.html")) : (n = t.replace("-sv.html", ".html")),
+            (window.location.href = n);
+        }
+        function o(e) {
+          document.querySelectorAll(".menu-item a").forEach((n) => {
+            const s = n.getAttribute("href");
+            let l;
+            e === "sv" ? (l = s.replace(".html", "-sv.html")) : (l = s.replace("-sv.html", ".html")),
+              n.setAttribute("href", l);
+          });
+        }
+        document.addEventListener("DOMContentLoaded", () => {
+          const e = localStorage.getItem("language") || "es";
+          o(e);
+          const t = window.location.pathname;
+          ((e === "sv" && !t.includes("-sv.html")) || (e === "es" && t.includes("-sv.html"))) && c(e);
+        });
+        document.getElementById("btn-spa").addEventListener("click", () => a("es"));
+        document.getElementById("btn-swe").addEventListener("click", () => a("sv"));
+        document.getElementById("menu-opener").addEventListener("click", function () {
+          const e = document.querySelector("#menu ul");
+          e.style.display = e.style.display === "flex" ? "none" : "flex";
+        });
+      </script>
+      <div
+        id="main"
+        data-astro-cid-37fxchfa=""
+        style="
+          --primaryColor: #3a7bd5;
+          --primaryGradient: linear-gradient(to right, #3a7bd5, #00d2ff);
+          --secondaryColor: #2c3e50;
+          --accentColor: #ff6b6b;
+          --lightBg: #f9f9f9;
+          --darkText: #333;
+          --lightText: #fff;
+        ">
+        <div class="section section-banner">
+          <div class="container">
+            <div id="bigbar">
+              <video autoplay="autoplay" muted="muted" loop="" playsinline="" id="bg-video">
+                <source src="Inicio%20-%20True%20Parenting_files/momfront.mp4" type="video/mp4" />
+                Tu navegador no soporta el elemento de video.
+              </video>
+              <div class="bigbar-overlay-container">
+                <div id="bigbar-overlay">
+                  <h1 class="bigbar-h1">¡Sí se puede!</h1>
+                  <p class="moze-large" style="color: var(--light-text); text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3)">
+                    Transforma tu familia con principios bíblicos
+                  </p>
+                  <a href="#selecciona-tu-programa" class="moze-button-large">Descubre más</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="selecciona-tu-programa" data-astro-cid-j7pv25f6="">
+          <!-- Sección de tarjetas -->
+         <!-- Sección "Selecciona tu programa" -->
+<section class="section-customizable">
+  <div class="container">
+    <div class="title-container" style="text-align: center; margin-bottom: 30px;">
+      <h2 class="section-title">Selecciona tu programa</h2>
+    </div>
+    
+    <div class="cards-section">
+      <div class="cards-container">
+        <!-- Tarjeta 1 -->
+        <div class="card">
+          <div class="card-content">
+            <img src="Inicio%20-%20True%20Parenting_files/club-de-lectura.jpg" alt="Programa 1" class="card-image">
+            <h3 class="card-title">Club de lectura</h3>
+            <p class="card-description"> La clave para el conocimiento es leer libros. Hágamoslo juntos.</p>
+            <a href="https://www.facebook.com/groups/redpadres/?ref=share" class="card-button">Explorar</a>
+          </div>
+        </div>
+        
+        <!-- Tarjeta 2 -->
+        <div class="card">
+          <div class="card-content">
+            <img src="Inicio%20-%20True%20Parenting_files/ciberfamilias.jpg" alt="Programa 2" class="card-image">
+            <h3 class="card-title">Ciberfamilias</h3>
+            <p class="card-description">Conferencias en Youtube sobre la tecnología en nuestras familias.</p>
+            <a href="https://www.youtube.com/watch?v=5exXr2hmiaQ" class="card-button">Explorar</a>
+          </div>
+        </div>
+        
+        <!-- Tarjeta 3 -->
+        <div class="card">
+          <div class="card-content">
+            <img src="Inicio%20-%20True%20Parenting_files/dise%C3%B1o-original.jpg" alt="Programa 3" class="card-image">
+            <h3 class="card-title">Diseño Original</h3>
+            <p class="card-description">Un curso en YouTube que te enseña sobre el diseño original de la sexualidad.</p>
+            <a href="https://www.youtube.com/live/Q6RxCiEVawI" class="card-button">Explorar</a>
+          </div>
+        </div>
+        
+        <!-- Tarjeta 4 -->
+        <div class="card">
+          <div class="card-content">
+            <img src="Inicio%20-%20True%20Parenting_files/FAMILIA_Y_GOBIERNO-1.jpg" alt="Programa 4" class="card-image">
+            <h3 class="card-title">Familia y Gobierno</h3>
+            <p class="card-description">Los niños necesitan la guía de los padres para formar hábitos correctos.</p>
+            <a href="https://www.youtube.com/playlist?list=PLMADVfpLDQF0tb_YUlY_YSxIosRT1fJ2O" class="card-button">Explorar</a>
+          </div>
+        </div>
+        
+        <!-- Tarjeta 5 -->
+        <div class="card">
+          <div class="card-content">
+            <img src="Inicio%20-%20True%20Parenting_files/True_parenting_2.jpg" alt="Programa 5" class="card-image">
+            <h3 class="card-title">Educación Divina</h3>
+            <p class="card-description">La educación diseñada por Dios aplica a todos los aspectos de la vida.</p>
+            <a href="https://www.youtube.com/playlist?list=PLMADVfpLDQF2rGvNANHaj7aVV5w5b5HZg" class="card-button">Explorar</a>
+          </div>
+        </div>
+        
+        <!-- Tarjeta 6 -->
+        <div class="card">
+          <div class="card-content">
+            <img src="Inicio%20-%20True%20Parenting_files/FAMILIA_Y_GOBIERNO__1_-1.jpg" alt="Programa 6" class="card-image">
+            <h3 class="card-title">Recursos Prácticos</h3>
+            <p class="card-description">¿Buscas consejos para tu paternidad? Accede a recursos gratuitos.</p>
+            <a href="https://linktr.ee/Escuela_Para_Padres" class="card-button">Explorar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sección "Últimos Videos" -->
+<section class="section-customizable">
+  <div class="container">
+    <div class="title-container" style="text-align: center; margin-bottom: 30px;">
+      <h2 class="section-title">Últimos Videos</h2>
+    </div>
+    
+    <div class="videos-section">
+      <div class="videos-list">
+        <!-- Video 1 -->
+        <div class="video-card">
+<a href="https://www.youtube.com/watch?v=0xp1ambWUMg" target="_blank" rel="noopener noreferrer">
+          <div class="video-container">
+            <img src="https://img.youtube.com/vi/0xp1ambWUMg/maxresdefault.jpg" alt="Miniatura Video 1" class="video-thumbnail">
+            <div class="play-button">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M8 5v14l11-7z" fill="#ffffff"/>
+              </svg>
+            </div>
+            <div class="video-title">Educación Diseño Original</div> 
+          </div></a>
+        </div>
+        
+        <!-- Video 2 -->
+        <div class="video-card">
+<a href="https://www.youtube.com/watch?v=c3209lcUZJo" target="_blank" rel="noopener noreferrer">
+
+          <div class="video-container">
+            <img src="https://img.youtube.com/vi/c3209lcUZJo/maxresdefault.jpg" alt="Miniatura Video 2" class="video-thumbnail">
+            <div class="play-button">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M8 5v14l11-7z" fill="#ffffff"/>
+              </svg>
+            </div>
+            <div class="video-title">Mujer Diseño original</div>
+          </div> </a>
+        </div>
+        
+        <!-- Video 3 -->
+        <div class="video-card">
+<a href="https://www.youtube.com/watch?v=5J-tIdM9ofg" target="_blank" rel="noopener noreferrer">
+          <div class="video-container">
+            <img src="https://img.youtube.com/vi/5J-tIdM9ofg/maxresdefault.jpg" alt="Miniatura Video 3" class="video-thumbnail">
+            <div class="play-button">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M8 5v14l11-7z" fill="#ffffff"/>
+              </svg>
+            </div>
+            <div class="video-title">Club de Lectura</div>
+          </div> </a>
+        </div>
+        
+        <!-- Video 4 -->
+        <div class="video-card">
+<a href="https://www.youtube.com/watch?v=fGo-KkvSGK8" target="_blank" rel="noopener noreferrer">
+          <div class="video-container">
+            <img src="https://img.youtube.com/vi/fGo-KkvSGK8/maxresdefault.jpg" alt="Miniatura Video 4" class="video-thumbnail">
+            <div class="play-button">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M8 5v14l11-7z" fill="#ffffff"/>
+              </svg>
+            </div>
+            <div class="video-title">Feminismo y Aborto</div>
+          </div> </a>
+        </div>
+        
+        <!-- Video 5 -->
+        <div class="video-card">
+<a href="https://www.youtube.com/watch?v=Jq-F3khSEm0" target="_blank" rel="noopener noreferrer">
+          <div class="video-container">
+            <img src="https://img.youtube.com/vi/Jq-F3khSEm0/maxresdefault.jpg" alt="Miniatura Video 5" class="video-thumbnail">
+            <div class="play-button">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M8 5v14l11-7z" fill="#ffffff"/>
+              </svg>
+            </div>
+            <div class="video-title">Postmodernismo</div>
+          </div> </a>
+        </div>
+        
+        <!-- Video 6 -->
+        <div class="video-card">
+<a href="https://www.youtube.com/watch?v=8fLdvufe-qQ" target="_blank" rel="noopener noreferrer">
+          <div class="video-container">
+            <img src="https://img.youtube.com/vi/8fLdvufe-qQ/maxresdefault.jpg" alt="Miniatura Video 6" class="video-thumbnail">
+            <div class="play-button">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M8 5v14l11-7z" fill="#ffffff"/>
+              </svg>
+            </div>
+            <div class="video-title">Club de Lectura 2</div>
+          </div> </a>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+          <!-- Sección de videos -->
+
+        </div>
+
+      </div>
+      <div id="subscribe-modal" class="modal">
+        <div class="modal-content">
+          <span id="close-modal" class="close">×</span>
+          <h2>Suscríbete</h2>
+          <p>Recibe novedades y recursos directamente en tu correo.</p>
+          <form id="subscribe-form" name="subscribe" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="subscribe" />
+            <input type="email" name="email" id="email-input" placeholder="Tu correo electrónico" required="" />
+            <button type="submit" class="moze-formbutton">Enviar</button>
+          </form>
+        </div>
+      </div>
+      <script type="module">
+        const n = document.getElementById("subscribe-btn"),
+          e = document.getElementById("subscribe-modal"),
+          d = document.getElementById("close-modal");
+        n?.addEventListener("click", () => {
+          e && (e.style.display = "flex");
+        });
+        d?.addEventListener("click", () => {
+          e && (e.style.display = "none");
+        });
+        window.addEventListener("click", (t) => {
+          t.target === e && e && (e.style.display = "none");
+        });
+      </script>
+      <footer id="bottom">
+        <div id="footer">
+          <div id="social">
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/profile.php?id=100092476140458" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon" style="color: var(--light-text)">
+                <path
+                  d="M18.77,7.46H14.5v-1.9c0-.9.6-1.1,1-1.1h3V.5L14.17.5C10.24.5,9.1,3.3,9.1,5.47V7.47H5.5v4h3.6V22h5.4V11.47h3.77Z"
+                  fill="currentColor"></path>
+              </svg>
+            </a>
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/esc_parapadres/" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon" style="color: var(--light-text)">
+                <path
+                  d="M12,2.16c3.2,0,3.58,0,4.85.07,3.25.15,4.77,1.69,4.92,4.92.06,1.27.07,1.65.07,4.85s0,3.59-.07,4.85c-.15,3.23-1.66,4.77-4.92,4.92-1.27.06-1.64.07-4.85.07s-3.58,0-4.85-.07c-3.26-.15-4.77-1.7-4.92-4.92-.06-1.27-.07-1.64-.07-4.85s0-3.58.07-4.85C2.38,3.92,3.9,2.38,7.15,2.23,8.42,2.18,8.8,2.16,12,2.16ZM12,0C8.74,0,8.33,0,7.05.07c-4.35.2-6.78,2.62-6.98,6.98C0,8.33,0,8.74,0,12S0,15.67.07,17c.2,4.36,2.63,6.78,6.98,6.98C8.33,24,8.74,24,12,24s3.67,0,4.95-.07c4.35-.2,6.78-2.62,7-7C24,15.67,24,15.26,24,12s0-3.67-.07-4.95c-.2-4.35-2.63-6.78-7-6.98C15.67,0,15.26,0,12,0Zm0,5.84A6.16,6.16,0,1,0,18.16,12,6.16,6.16,0,0,0,12,5.84ZM12,16a4,4,0,1,1,4-4A4,4,0,0,1,12,16ZM18.41,4.15a1.44,1.44,0,1,0,1.43,1.44A1.44,1.44,0,0,0,18.41,4.15Z"
+                  fill="currentColor"></path>
+              </svg>
+            </a>
+            <!-- YouTube -->
+            <a href="https://www.youtube.com/@esparapadres/streams" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon" style="color: var(--light-text)">
+                <path
+                  d="M23.8,7.2a3,3,0,0,0-2.1-2.1C19.9,4.5,12,4.5,12,4.5s-7.9,0-9.7.6A3,3,0,0,0,.2,7.2,31.24,31.24,0,0,0,0,12a31.24,31.24,0,0,0,.2,4.8,3,3,0,0,0,2.1,2.1c1.8.6,9.7.6,9.7.6s7.9,0,9.7-.6a3,3,0,0,0,2.1-2.1A31.24,31.24,0,0,0,24,12,31.24,31.24,0,0,0,23.8,7.2ZM9.5,15.1V8.9L15.8,12Z"
+                  fill="currentColor"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+<!-- Script para hacer funcional el carrusel de cards y la interacción de videos -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Funcionalidad de arrastre para la sección de cards
+    const cardsContainer = document.querySelector('.cards-container');
+    let isDown = false;
+    let startX;
+    let scrollLeft;
+
+    cardsContainer.addEventListener('mousedown', (e) => {
+      isDown = true;
+      cardsContainer.classList.add('active');
+      startX = e.pageX - cardsContainer.offsetLeft;
+      scrollLeft = cardsContainer.scrollLeft;
+    });
+
+    cardsContainer.addEventListener('mouseleave', () => {
+      isDown = false;
+      cardsContainer.classList.remove('active');
+    });
+
+    cardsContainer.addEventListener('mouseup', () => {
+      isDown = false;
+      cardsContainer.classList.remove('active');
+    });
+
+    cardsContainer.addEventListener('mousemove', (e) => {
+      if (!isDown) return;
+      e.preventDefault();
+      const x = e.pageX - cardsContainer.offsetLeft;
+      const walk = (x - startX) * 2; // Ajusta la velocidad de desplazamiento
+      cardsContainer.scrollLeft = scrollLeft - walk;
+    });
+
+    // Funcionalidad para los videos
+
+    document.addEventListener('DOMContentLoaded', function() {
+  const videosList = document.querySelector('.video-card');
+  
+  function resetAnimation() {
+    videosList.style.animation = 'none';
+    void videosList.offsetWidth; // Forzar reflujo para reiniciar animación
+    videosList.style.animation = 'scroll-videos 10s linear infinite';
+  }
+
+  setInterval(resetAnimation, 9000); // Reiniciar la animación cada 10s
+});
+
+
+    
+    videoCards.forEach(card => {
+      card.addEventListener('click', function() {
+        // Aquí se puede agregar la lógica para abrir el video en un modal o redirigir a YouTube
+        const videoTitle = this.querySelector('.video-title').textContent;
+        console.log(`Video seleccionado: ${videoTitle}`);
+        
+        // Ejemplo: Podría redirigir a YouTube o abrir un modal
+        // window.open('https://youtube.com/watch?v=VIDEOID', '_blank');
+        
+        // O mostrar un modal con el video embebido
+        // const videoId = 'ID_DEL_VIDEO'; // Reemplazar con el ID real del video
+        // const embedHTML = `<iframe width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>`;
+        // document.getElementById('videoModal').innerHTML = embedHTML;
+        // document.getElementById('videoModal').style.display = 'flex';
+      });
+    });
+    
+    // Asegurar que la animación del carrusel de videos funcione correctamente
+    // La animación ya está definida en CSS con @keyframes scroll
+  });
+</script>
+<script src="true-parenting-editor.js"></script>
+  </body>
+</html>
